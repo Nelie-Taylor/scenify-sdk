@@ -14,17 +14,11 @@
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
     "react": ">=16"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
   },
   "prettier": {
     "semi": false,
@@ -33,11 +27,12 @@
     "printWidth": 110,
     "arrowParens": "avoid"
   },
-  "name": "@scenify/sdk",
+  "name": "@nelie-taylor/scenify-sdk",
   "author": "Dany Boza <db@backium.co>",
   "homepage": "https://github.com/scenify/scenify-sdk",
   "repository": "https://github.com/scenify/scenify-sdk",
   "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
   "module": "dist/scenify.esm.js",
