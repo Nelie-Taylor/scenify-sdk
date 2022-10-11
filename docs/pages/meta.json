@@ -1,0 +1,10 @@
+{
+  "index": "Intro",
+  "setup": "Setup",
+  "hooks": "Hooks",
+  "objects": "Objects",
+  "history": "History",
+  "zoom": "Zoom",
+  "events": "Events",
+  "design": "Design"
+}

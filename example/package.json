@@ -1,0 +1,38 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@types/css-font-loading-module": "^0.0.7",
+    "@types/lodash": "^4.14.177",
+    "@types/styletron-engine-atomic": "^1.1.1",
+    "@types/styletron-react": "^5.0.3",
+    "@types/styletron-standard": "^2.0.2",
+    "axios": "^0.24.0",
+    "baseui": "^10.6.0",
+    "lodash": "^4.17.21",
+    "nanoid": "^3.1.30",
+    "react-app-polyfill": "^1.0.0",
+    "react-colorful": "^5.5.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "styletron-engine-atomic": "^1.4.8",
+    "styletron-react": "^6.0.2",
+    "use-debounce": "^7.0.1"
+  },
+  "alias": {
+    "react": "../node_modules/react",
+    "react-dom": "../node_modules/react-dom/profiling",
+    "scheduler/tracing": "../node_modules/scheduler/tracing-profiling"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.8.4",
+    "parcel": "1.12.3",
+    "typescript": "^3.4.5"
+  }
+}
